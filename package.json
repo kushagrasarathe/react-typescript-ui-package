@@ -1,8 +1,11 @@
 {
-  "name": "rtspkg",
+  "name": "@kushagrasarathe/rtspkg",
   "version": "1.0.0",
   "description": "UI package using react and typescript",
-  "main": "index.js",
+  "main": "src/index.ts",
+  "files": [
+    "src/**/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +18,15 @@
   "bugs": {
     "url": "https://github.com/kushagrasarathe/react-typescript-ui-package/issues"
   },
-  "homepage": "https://github.com/kushagrasarathe/react-typescript-ui-package#readme"
+  "homepage": "https://github.com/kushagrasarathe/react-typescript-ui-package#readme",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2"
+  },
+  "dependencies": {
+    "@types/react": "^18.0.28",
+    "@types/styled-components": "^5.1.26",
+    "react": "^18.2.0",
+    "styled-components": "^5.3.9",
+    "typescript": "^4.9.5"
+  }
 }
