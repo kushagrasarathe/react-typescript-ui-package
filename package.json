@@ -1,0 +1,19 @@
+{
+  "name": "rtspkg",
+  "version": "1.0.0",
+  "description": "UI package using react and typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kushagrasarathe/react-typescript-ui-package.git"
+  },
+  "author": "@kushagrasarathe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kushagrasarathe/react-typescript-ui-package/issues"
+  },
+  "homepage": "https://github.com/kushagrasarathe/react-typescript-ui-package#readme"
+}
